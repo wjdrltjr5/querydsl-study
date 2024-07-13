@@ -1,5 +1,6 @@
 package study.querydslstudy.entity;
 
+import com.querydsl.core.types.dsl.BooleanExpression;
 import jakarta.persistence.*;
 import lombok.*;
 

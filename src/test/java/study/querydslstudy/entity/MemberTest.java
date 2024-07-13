@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
+
 @SpringBootTest
 @Transactional
 class MemberTest {
@@ -16,7 +17,6 @@ class MemberTest {
     EntityManager em;
 
     @Test
-
     void testEntity() {
         // given
         Team teamA = new Team("teamA");
